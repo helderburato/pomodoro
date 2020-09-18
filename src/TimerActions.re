@@ -2,7 +2,7 @@ open State;
 
 [@react.component]
 let make = (~dispatch, ~isTicking) =>
-  <div>
+  <div className="buttons">
     <button onClick={_ => dispatch(Reset)}>
       <span className="fas fa-stop" />
     </button>

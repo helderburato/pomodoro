@@ -16,9 +16,7 @@ let make = () => {
       {s("Switch timer")}
     </button>
     <Timer seconds={state.seconds} />
-    <button onClick={_ => dispatch(Stop)}> {React.string("Stop")} </button>
-    <button onClick={_ => dispatch(Start)}> {React.string("Start")} </button>
-    <button onClick={_ => dispatch(Reset)}> {React.string("Reset")} </button>
+    <TimerActions dispatch isTicking={state.isTicking} />
     <FormInputTime
       phase="Work"
       value={state.workTime}

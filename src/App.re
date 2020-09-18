@@ -1,4 +1,3 @@
-open Utils;
 open State;
 
 [@react.component]

@@ -9,9 +9,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "BuckleScript",
-    "ReasonReact",
-    "reason-react"
+    "reason",
+    "reason-pomodoro",
+    "pomodoro"
   ],
   "author": "",
   "license": "MIT",

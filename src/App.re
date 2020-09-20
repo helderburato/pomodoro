@@ -5,7 +5,6 @@ let make = () => {
   let (state, dispatch) = React.useReducer(reducer, initialState);
   let {seconds, currentPhase, isTicking, workTime, playTime} = state;
 
-  // It's the same of React.useEffect((), []);
   React.useEffect0(() => {
     let timer = Js.Global.setInterval(() => dispatch(Tick), 1000);
     Some(() => Js.Global.clearInterval(timer));

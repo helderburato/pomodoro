@@ -9,11 +9,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "rescript",
     "reason",
-    "reason-pomodoro",
+    "rescript-pomodoro",
     "pomodoro"
   ],
-  "author": "",
+  "author": "Helder Burato Berto <helder.burato@gmail.com> (https://helderburato.com)",
   "license": "MIT",
   "dependencies": {
     "react": "^16.8.1",
